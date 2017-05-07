@@ -9,48 +9,48 @@ ion-content.HomePageBackground{
 
   // pehla bg
 
-    background-image:url('https://pbs.twimg.com/profile_images/783569426092138496/QLXcYWdR_reasonably_small.jpg'),url($blurred-img);
-	background-repeat:no-repeat, no-repeat;
-	background-size: 30px 30px,cover;
-	background-attachment: fixed, fixed;
-    background-position: right bottom, center;
-    &.tinted{
-	background-image:linear-gradient(0deg, rgba(255,255,255,.2),rgba(255,255,255,.2)),url($blurred-img);
+  //   background-image:url('https://pbs.twimg.com/profile_images/783569426092138496/QLXcYWdR_reasonably_small.jpg'),url($blurred-img);
+	// background-repeat:no-repeat, no-repeat;
+	// background-size: 30px 30px,cover;
+	// background-attachment: fixed, fixed;
+  //   background-position: right bottom, center;
+  //   &.tinted{
+	// background-image:linear-gradient(0deg, rgba(255,255,255,.2),rgba(255,255,255,.2)),url($blurred-img);
   
-	// -webkit-backdrop-filter: sepia() hue-rotate(120deg);
-  // backdrop-filter: blur(0px);
-    }
-	&.shaded{
-    background-image:linear-gradient(0deg, rgba(0,0,0,.2),rgba(0,0,0,.2)),url($blurred-img);
+	// // -webkit-backdrop-filter: sepia() hue-rotate(120deg);
+  // // backdrop-filter: blur(0px);
+  //   }
+	// &.shaded{
+  //   background-image:linear-gradient(0deg, rgba(0,0,0,.2),rgba(0,0,0,.2)),url($blurred-img);
   
-    // backdrop-filter: blur(3px) grayscale(50%);
-	}
+  //   // backdrop-filter: blur(3px) grayscale(50%);
+	// }
 
 // dusra bg
 
 
-// background: linear-gradient(58deg, #df6c0f, #e40841, #3e08e4, #08d8e4, #b8e408, #08c5e4, #080de4, #e40840);
-// background-size: 1600% 1600%;
+background: linear-gradient(58deg, #df6c0f, #e40841, #3e08e4, #08d8e4, #b8e408, #08c5e4, #080de4, #e40840);
+background-size: 1600% 1600%;
 
-// -webkit-animation: AnimationName 34s ease infinite;
-// -moz-animation: AnimationName 34s ease infinite;
-// animation: AnimationName 34s ease infinite;
+-webkit-animation: AnimationName 34s ease infinite;
+-moz-animation: AnimationName 34s ease infinite;
+animation: AnimationName 34s ease infinite;
 
-// @-webkit-keyframes AnimationName {
-//     0%{background-position:54% 0%}
-//     50%{background-position:47% 100%}
-//     100%{background-position:54% 0%}
-// }
-// @-moz-keyframes AnimationName {
-//     0%{background-position:54% 0%}
-//     50%{background-position:47% 100%}
-//     100%{background-position:54% 0%}
-// }
-// @keyframes AnimationName { 
-//     0%{background-position:54% 0%}
-//     50%{background-position:47% 100%}
-//     100%{background-position:54% 0%}
-// }
+@-webkit-keyframes AnimationName {
+    0%{background-position:54% 0%}
+    50%{background-position:47% 100%}
+    100%{background-position:54% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:54% 0%}
+    50%{background-position:47% 100%}
+    100%{background-position:54% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:54% 0%}
+    50%{background-position:47% 100%}
+    100%{background-position:54% 0%}
+}
 
 // teesra bg
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c92830+0,6d0bed+43&1+17,0+100 */
@@ -298,9 +298,10 @@ h1,h2,a{
 }
 h1.glow{
   font-size:2em;
-  color: #2e2f30;
+  // color: #2e2f30;
+  color: white;
   font-family: 'Open Sans','Droid Sans',sans-serif;
-  text-shadow: 1px 1px 5px gray;
+  text-shadow: 1px 1px 2px black;
   font-weight:bold ;
   letter-spacing: 4px;
 }
